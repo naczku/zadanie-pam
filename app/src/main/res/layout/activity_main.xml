@@ -19,51 +19,35 @@
         app:srcCompat="@drawable/img_3" />
 
     <ImageButton
-        android:id="@+id/next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.828"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.655"
-        app:srcCompat="@android:drawable/ic_media_ff" />
-
-    <ImageButton
         android:id="@+id/prev"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.197"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.655"
-        app:srcCompat="@android:drawable/ic_media_rew" />
+        android:layout_width="166dp"
+        android:layout_height="107dp"
+        app:srcCompat="@drawable/img_5"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="416dp" />
 
     <ImageButton
-        android:id="@+id/clear"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.354"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8"
-        app:srcCompat="@android:drawable/btn_dialog" />
+        android:id="@+id/next"
+        android:layout_width="167dp"
+        android:layout_height="191dp"
+        app:srcCompat="@drawable/img_6"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <ImageButton
+        android:id="@+id/clean"
+        android:layout_width="77dp"
+        android:layout_height="87dp"
+        app:srcCompat="@drawable/img_4"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="567dp" />
 
     <ImageButton
         android:id="@+id/kamera"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.67"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8"
-        app:srcCompat="@android:drawable/ic_menu_camera" />
+        android:layout_width="186dp"
+        android:layout_height="136dp"
+        app:srcCompat="@drawable/img_7"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="579dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
